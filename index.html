@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive 3D Parallax Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class = "hide">
+    <nav>
+      <img src="./img/logo.png" alt="Travelo" class="logo">
+      <ul>
+        <li>
+          <a href="#">Login</a>
+        </li>
+        <li>
+          <a href="">Sign up</a>
+        </li>
+        <li class="search">
+          <a href="#" >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </li>
+        <li class="hamburger">
+          <a href="#">
+            <div class="bar"></div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header >
+
+  <main>
+    <div class="vignette hide"></div>
+    <img src="img/background.png" id="bgimg" class="parallax bg-img"  data-rotation="0" data-speedx="0.3" data-speedy="0.38" data-speedz="0"  data-distance="-100"  alt="">
+    <img src="img/fog_7.png" class="parallax fog7"  data-rotation="0" data-speedx="0.27" data-speedy="0.32" data-speedz="0" data-distance="1050"  alt="">
+    <img src="img/mountain_10.png" class="parallax mountain-10" data-rotation="0" data-speedx="0.195" data-speedy="0.21" data-speedz="0" data-distance="1250"  alt="">
+    <img src="img/fog_6.png" class="parallax fog6" data-rotation="0" data-speedx="0.25" data-speedy="0.3" data-speedz="0"  data-distance="1450"  alt="">
+    <img src="img/mountain_9.png" class="parallax mountain-9" data-rotation="0.02" data-speedx="0.125" data-speedy="0.15" data-speedz="0.15" data-distance="1650"  alt="">
+    <img src="img/mountain_8.png" class="parallax mountain-8"  data-rotation="0.02" data-speedx="0.1" data-speedy="0.14" data-speedz="0" data-distance="1850"  alt="">
+    <img src="img/fog_5.png" class="parallax fog5"  data-rotation="0" data-speedx="0.16" data-speedy="0.11" data-speedz="0" data-distance="1950"  alt="">
+    <img src="img/mountain_7.png" class="parallax mountain-7" data-rotation="0.09" data-speedx="0.1" data-speedy="0.12" data-speedz="0" data-distance="2100"  alt="">
+    <div class="text parallax" data-rotation="0.11" data-speedx="0.07" data-speedy="0.07" data-speedz="0">
+      <h2>China</h2>
+      <h1>Zhangjiajie</h1>
+    </div>
+    <img src="img/mountain_6.png" class="parallax mountain-6"  data-rotation="0.12" data-speedz="0.05" data-speedx="0.065" data-speedy="0.07" data-distance="2230"  alt="">
+    <img src="img/fog_4.png"  class="parallax fog4"  data-rotation="0" data-speedz="0" data-speedx="0.135" data-speedy="0.16" data-distance="2340" alt="">
+    <img src="img/mountain_5.png" class="parallax mountain-5"  data-rotation="0.18" data-speedz="0.13" data-speedx="0.08" data-speedy="0.12" data-distance="2480"  alt="">
+    <img src="img/fog_3.png" class="parallax fog3" data-rotation="0.0" data-speedz="0" data-speedx="0.11" data-speedy="0.015" data-distance="2680"  alt="">
+    <img src="img/mountain_4.png" class="parallax mountain-4"  data-rotation="0.24" data-speedz="0.45" data-speedx="0.059" data-speedy="0.062" data-distance="2890"  alt="">
+    <img src="img/mountain_3.png" class="parallax mountain-3" data-rotation="0.85" data-speedz="0.32" data-speedx="0.04" data-speedy="0.045"  data-distance="3040"  alt="">
+    <img src="img/fog_2.png" class="parallax fog2" data-rotation="0" data-speedz="0" data-speedx="0.15" data-speedy="0.0115" data-distance="3260"  alt="">
+    <img src="img/mountain_2.png" class="parallax mountain-2"  data-rotation="0.25" data-speedz="0.42" data-speedx="0.02 " data-speedy="0.01" data-distance="3480"  alt="">
+    <img src="img/mountain_1.png" class="parallax mountain-1"  data-rotation="0.2" data-speedz="0.5" data-speedx="0.017" data-speedy="0.011" data-distance="3600"  alt="">
+    <img src="img/sun_rays.png" class="sun_rays hide"  alt="">
+    <img src="img/black_shadow.png" class="black_shadow hide" alt="">
+    <img src="img/fog_1.png" class="parallax fog1"   data-rotation="0" data-speedz="0" data-speedx="0.12" data-speedy="0.014" data-distance="3890" alt="">
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/app.js" defer></script>
+</body>
+
+</html>
